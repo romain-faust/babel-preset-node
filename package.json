@@ -1,0 +1,30 @@
+{
+	"author": {
+		"email": "romain.faust@gmail.com",
+		"name": "Romain Faust"
+	},
+	"description": "Babel preset for Node.js",
+	"devDependencies": {
+		"@romain-faust/prettier-config": "~2.0.4",
+		"husky": "~6.0.0",
+		"lint-staged": "~11.0.0",
+		"prettier": "~2.3.1"
+	},
+	"files": [
+		"index.js"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "@romain-faust/babel-preset-node",
+	"peerDependencies": {
+		"@babel/core": "^7.14.5",
+		"@babel/preset-env": "^7.14.5",
+		"@babel/preset-typescript": "^7.14.5",
+		"babel-plugin-module-resolver": "^4.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/romain-faust/babel-preset-node.git"
+	},
+	"version": "1.0.0"
+}
