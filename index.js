@@ -23,7 +23,12 @@ module.exports = function (api, options = {}) {
 					},
 				},
 			],
-			'@babel/preset-typescript',
+			[
+				'@babel/preset-typescript',
+				{
+					allowDeclareFields: true,
+				},
+			],
 		],
 	}
 }
