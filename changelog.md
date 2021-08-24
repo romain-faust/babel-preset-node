@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+-   Create the `pre-commit` hook.
+
 ### Changed
 
 -   Enable the `allowDeclareFields` option of `@babel/preset-typescript`.
