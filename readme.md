@@ -27,18 +27,10 @@ yarn add --dev @romain-faust/babel-preset-node
 
 In your Babel configuration:
 
+<!-- prettier-ignore -->
 ```json
 {
-	"presets": [
-		[
-			"@romain-faust/babel-preset-node",
-			{
-				"aliases": {
-					"#": "./sources"
-				}
-			}
-		]
-	]
+    "presets": ["@romain-faust/node"]
 }
 ```
 

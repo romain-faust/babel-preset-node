@@ -17,5 +17,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 -   Rename the GitHub issue templates.
 -   Remove the `Install dependencies` step from the `publish` workflow.
 -   Update the dependencies versions.
+-   Simplify the usage section of the `readme.md`.
 
 ## [1.0.0] - 2021-06-14
