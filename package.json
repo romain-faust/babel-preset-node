@@ -6,9 +6,9 @@
 	"description": "Babel preset for Node.js",
 	"devDependencies": {
 		"@romain-faust/prettier-config": "~2.0.4",
-		"husky": "~6.0.0",
-		"lint-staged": "~11.0.0",
-		"prettier": "~2.3.1"
+		"husky": "~7.0.1",
+		"lint-staged": "~11.1.2",
+		"prettier": "~2.3.2"
 	},
 	"files": [
 		"index.js"
@@ -17,9 +17,9 @@
 	"main": "index.js",
 	"name": "@romain-faust/babel-preset-node",
 	"peerDependencies": {
-		"@babel/core": "^7.14.5",
-		"@babel/preset-env": "^7.14.5",
-		"@babel/preset-typescript": "^7.14.5",
+		"@babel/core": "^7.15.0",
+		"@babel/preset-env": "^7.15.0",
+		"@babel/preset-typescript": "^7.15.0",
 		"babel-plugin-module-resolver": "^4.1.0"
 	},
 	"repository": {
