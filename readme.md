@@ -36,4 +36,4 @@ In your Babel configuration:
 
 ## License
 
-[MIT](./license.md)
+[MIT](license.md)
