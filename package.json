@@ -8,7 +8,7 @@
 		"@romain-faust/prettier-config": "~2.0.4",
 		"husky": "~7.0.1",
 		"lint-staged": "~11.1.2",
-		"prettier": "~2.3.2"
+		"prettier": "~2.4.1"
 	},
 	"files": [
 		"changelog.md",
