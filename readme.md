@@ -19,7 +19,7 @@ yarn add --dev @romain-faust/babel-preset-node
 ## Dependencies
 
 -   [@babel/core](https://npmjs.org/package/@babel/core) ^7.15.8
--   [@babel/preset-env](https://npmjs.org/package/@babel/preset-env) ^7.15.0
+-   [@babel/preset-env](https://npmjs.org/package/@babel/preset-env) ^7.15.8
 -   [@babel/preset-typescript](https://npmjs.org/package/@babel/preset-typescript) ^7.15.0
 -   [babel-plugin-module-resolver](https://npmjs.org/package/babel-plugin-module-resolver) ^4.1.0
 
