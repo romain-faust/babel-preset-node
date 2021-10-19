@@ -16,7 +16,7 @@ jobs:
               with:
                   always-auth: true
                   node-version: 14.x
-                  registry-url: https://registry.npmjs.org
+                  registry-url: https://registry.npmjs.com
             - name: Publish to NPM registry
               run: yarn publish --access public
               env:
