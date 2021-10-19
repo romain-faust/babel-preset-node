@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 -   Use `npmjs.com` instead of `npmjs.org` in the `publish.yml` action.
 -   Update the [`prettier`](https://npmjs.com/package/prettier) version to [`~2.4.1`](https://npmjs.com/package/prettier/v/2.4.1).
+-   Update the [`@romain-faust/prettier-config`](https://npmjs.com/package/@romain-faust/prettier-config) version to [`~2.3.1`](https://npmjs.com/package/@romain-faust/prettier-config/v/2.3.1).
 
 ## [1.1.0] - 2021-08-24
 

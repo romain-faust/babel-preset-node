@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@romain-faust/prettier-config@~2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@romain-faust/prettier-config/-/prettier-config-2.0.4.tgz#9ff5de5ad783b3c11e55ba95d583929572a15c69"
-  integrity sha512-hsnmHzoTRexJ1xF+KrxR+pdk7qgKCjMtaADtxJNw1/vPo4dLj3lTxAxqA2BLYdAv6QTKY6LNTCwe8di3CuaVpw==
+"@romain-faust/prettier-config@~2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@romain-faust/prettier-config/-/prettier-config-2.3.1.tgz#bc31362de1d79e0e179f3387a86b8c0026fa35bd"
+  integrity sha512-cQbGHubYBi6ep1jhAWI5iOlRgXKn5BuQT2jMPaEXKeusB0PjYmNDLxEquCKIy6JhFEZL1u+274EFqYCWyzSiog==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
