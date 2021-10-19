@@ -25,7 +25,7 @@ yarn add --dev @romain-faust/babel-preset-node
 
 ## Usage
 
-In your Babel configuration:
+In your [Babel configuration](https://babeljs.io/docs/en/configuration):
 
 <!-- prettier-ignore -->
 ```json
