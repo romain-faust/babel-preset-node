@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 -   Update the [`@romain-faust/prettier-config`](https://npmjs.com/package/@romain-faust/prettier-config) version to [`~2.3.1`](https://npmjs.com/package/@romain-faust/prettier-config/v/2.3.1).
 -   Update the [`lint-staged`](https://npmjs.com/package/lint-staged) version to [`~11.2.3`](https://npmjs.com/package/lint-staged/v/11.2.3).
 -   Update the [`husky`](https://npmjs.com/package/husky) version to [`~7.0.2`](https://npmjs.com/package/husky/v/7.0.2).
+-   Update the expected [`@babel/core`](https://npmjs.com/package/@babel/core) version to [`^7.15.8`](https://npmjs.com/package/@babel/core/v/7.15.8).
 
 ## [1.1.0] - 2021-08-24
 
