@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Changed
+
+-   Fix a problem with the Babel configuration not exporting a function.
+
 ## [2.0.1] - 2021-10-19
 
 ### Changed
