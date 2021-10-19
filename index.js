@@ -1,35 +1,20 @@
-module.exports = function (api, options = {}) {
-	const { aliases, targetVersion = process.version } = options
-
-	const plugins = []
-
-	if (aliases) {
-		plugins.push([
-			'babel-plugin-module-resolver',
+module.exports = {
+	plugins: ['babel-plugin-tsconfig-paths-module-resolver'],
+	presets: [
+		[
+			'@babel/preset-env',
 			{
-				alias: aliases,
+				targets: {
+					node: process.version,
+				},
 			},
-		])
-	}
-
-	return {
-		plugins,
-		presets: [
-			[
-				'@babel/preset-env',
-				{
-					targets: {
-						node: targetVersion,
-					},
-				},
-			],
-			[
-				'@babel/preset-typescript',
-				{
-					allowDeclareFields: true,
-					onlyRemoveTypeImports: true,
-				},
-			],
 		],
-	}
+		[
+			'@babel/preset-typescript',
+			{
+				allowDeclareFields: true,
+				onlyRemoveTypeImports: true,
+			},
+		],
+	],
 }

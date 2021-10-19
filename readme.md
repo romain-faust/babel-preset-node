@@ -21,7 +21,7 @@ yarn add --dev @romain-faust/babel-preset-node
 -   [@babel/core](https://npmjs.org/package/@babel/core) ^7.15.8
 -   [@babel/preset-env](https://npmjs.org/package/@babel/preset-env) ^7.15.8
 -   [@babel/preset-typescript](https://npmjs.org/package/@babel/preset-typescript) ^7.15.0
--   [babel-plugin-module-resolver](https://npmjs.org/package/babel-plugin-module-resolver) ^4.1.0
+-   [babel-plugin-tsconfig-paths-module-resolver](https://npmjs.org/package/babel-plugin-tsconfig-paths-module-resolver) ^1.0.3
 
 ## Usage
 
@@ -33,15 +33,6 @@ In your Babel configuration:
     "presets": ["@romain-faust/node"]
 }
 ```
-
-## Configuration
-
-| Name          | Type   | Default           | Description                                                                                                                               |
-| ------------- | ------ | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| aliases       | object |                   | A [`babel-plugin-module-resolver` alias configuration](https://github.com/tleunen/babel-plugin-module-resolver/blob/master/DOCS.md#alias) |
-| targetVersion | string | `process.version` | The Node.js version to target                                                                                                             |
-
-⚠️ When you use the `aliases` option with TypeScript, do not forget to also configure the `paths` attribute of your `tsconfig.json`.
 
 ## License
 
